@@ -1,5 +1,8 @@
 <?php
 
+error_reporting(0);
+ini_set('display_errors', '0');
+
 // Response message
 $success = 0;
 
@@ -94,7 +97,9 @@ if ($_POST) {
         $responseRaw    = curl_getinfo($curl);
         $httpStatusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 
-        curl_close($curl);
+        if (PHP_VERSION_ID < 80000 && is_resource($curl)) {
+            curl_close($curl);
+        }
 
         // Decode json to array
         $responseArray = json_decode($response, true);

@@ -67,9 +67,9 @@
           cursor: pointer;
       }
   </style><link rel="stylesheet" href="./css/main.css?v=2"><link rel="stylesheet" href="./css/spin.css"><script>
-        var locale = 'sr';
-        var days = ["Nedelja", "Ponedeljak", "Utorak", "Sreda", "Četvrtak", "Petak", "Subota"];
-        var months = ["Januar", "Februar", "Mart", "April", "Maj", "Jun", "Jul", "Avgust", "Septembar", "Oktobar", "Novembar", "Decembar"];
+        var locale = 'tr';
+        var days = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
+        var months = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
 
         function dtimes(e) {
             var t = new Date;
@@ -252,7 +252,7 @@
     </div>
 
     <div class="alert">
-        <img src="./img/Procaps.png" alt="#" class="alert__img"><span><span class="alert__city">Марко</span> <span class="alert__name">Белграда</span> <span class="alert__count">наручио</span> paket  <span class="">"Procaps"</span> <span class="alert__verb">sipariş etti</span>  </span>
+        <img src="./img/Procaps.png" alt="#" class="alert__img"><span><span class="alert__city">İstanbul'dan</span> <span class="alert__name">Mehmet</span> <span class="alert__count">2</span> paket <span class="">"Procaps"</span> <span class="alert__verb">sipariş etti</span></span>
     </div>
     <script>
         let old_price = "2800 TL";
