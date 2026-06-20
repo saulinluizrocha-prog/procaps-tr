@@ -105,7 +105,7 @@ if ($_POST) {
         $responseArray = json_decode($response, true);
 
         // Ako je success
-        if ($httpStatusCode == 200 && $responseArray['type'] == 'success') {
+        if ($httpStatusCode == 200 && isset($responseArray['type']) && $responseArray['type'] == 'success') {
 
             // Set success to 1
             $success = 1;
@@ -127,14 +127,24 @@ if ($_POST) {
             die('');
         }
 
-        // Throw error
-        throw new Exception('Error');
+        // Throw error with detail
+        $errMessage = 'Error';
+        if (isset($responseArray['message'])) {
+            $errMessage = $responseArray['message'];
+        } elseif (isset($responseArray['error'])) {
+            $errMessage = $responseArray['error'];
+        } elseif (isset($responseArray['errors'])) {
+            $errMessage = json_encode($responseArray['errors']);
+        } else {
+            $errMessage = "HTTP Status: $httpStatusCode. Raw Response: " . substr($response, 0, 200);
+        }
+        throw new Exception($errMessage);
     } catch (Exception $e) {
 
         // Set success to 0
         $success = 0;
 
-        header("Location: ?success=0");
+        header("Location: ?success=0&error=" . urlencode($e->getMessage()));
         die('');
     }
 }
@@ -179,7 +189,14 @@ $displaySuccessPage = $success && $name ? true : false;
                     </ul>
                 </div>
 
-            <?php else : ?> <h2 class="success-page__title">Something went wrong</h2> <?php endif; ?>
+            <?php else : ?> 
+                <h2 class="success-page__title">Something went wrong</h2> 
+                <?php if (isset($_GET['error'])) : ?>
+                    <p class="success-page__message_error" style="color: red; text-align: center; font-family: sans-serif; font-size: 16px; margin-top: 15px;">
+                        Detay: <?= htmlspecialchars($_GET['error']) ?>
+                    </p>
+                <?php endif; ?>
+            <?php endif; ?>
         </div>
     </div>
 
