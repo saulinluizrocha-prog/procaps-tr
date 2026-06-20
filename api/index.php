@@ -443,31 +443,6 @@
                     </div>
                 </div>
 
-            <!-- ===== FAQ NATIVO (espelha o FAQPage do Schema) ===== -->
-            <section class="seo-faq" aria-label="Sıkça Sorulan Sorular">
-                <h2>Sıkça Sorulan Sorular</h2>
-                <details>
-                    <summary>ProCaps için ön ödeme yapmam gerekiyor mu?</summary>
-                    <p>Hayır. ProCaps siparişinizde ön ödeme yoktur. Ürünü kapıda teslim aldıktan sonra nakit olarak ödersiniz.</p>
-                </details>
-                <details>
-                    <summary>ProCaps Türkiye'nin her yerine teslim ediliyor mu?</summary>
-                    <p>Evet. ProCaps kargo ile Türkiye'nin her iline gönderilir ve teslimatta kapıda ödeme yapabilirsiniz.</p>
-                </details>
-                <details>
-                    <summary>ProCaps şu anda ne kadar?</summary>
-                    <p>ProCaps şu anda %50 indirimli kampanya fiyatıyla 1400 TL'dir. Kampanya stoklarla sınırlıdır.</p>
-                </details>
-                <details>
-                    <summary>Sipariş için ne gerekiyor?</summary>
-                    <p>Sadece adınızı ve telefon numaranızı girmeniz yeterlidir. Ekibimiz siparişi onaylamak için sizi arar.</p>
-                </details>
-                <details>
-                    <summary>ProCaps orijinal ürün mü?</summary>
-                    <p>Evet. Orijinal ProCaps yalnızca bu resmî site üzerinden satılır. Taklit ürünlerden korunmak için resmî siteden sipariş verin.</p>
-                </details>
-            </section>
-
             <!-- ===== RODAPÉ COMPLIANCE E-E-A-T ===== -->
             <footer class="site-footer">
                 <div class="footer-disclaimer">
