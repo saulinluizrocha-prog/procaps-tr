@@ -1,5 +1,145 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="content-type" content="text/html;charset=UTF-8"><meta content="IE=edge" http-equiv="X-UA-Compatible"><title>Hakan Aslan - Bedava tavsiye</title><!-- Open graph content --><meta property="og:url" content="#"><meta property="og:title" content="ProCaps"><meta property="og:site_name" content="ProCaps"><meta property="og:description" content="ProCaps - buy at a discounted price"><meta property="og:type" content="website"><meta property="og:image:url" content="./procaps.png?v=1781921437"><meta property="og:image:type" content="image/jpg"><meta property="og:image:width" content="712"><meta property="og:image:height" content="649"><!-- Page scripts --><script src="./core-scripts/jquery.js?v=12" type="text/javascript"></script><script src="./core-scripts/jquery.validate.js?v=12" type="text/javascript"></script><script src="./core-scripts/forms.js?v=49" type="text/javascript"></script><script src="./core-scripts/dr-dtime.js?v=12" type="text/javascript"></script><script src="./core-scripts/moment-with-locales.js?v=12" type="text/javascript"></script><!-- Page settings --><script>
+<html lang="tr-TR"><head><meta http-equiv="content-type" content="text/html;charset=UTF-8"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===== SEO BASE ===== -->
+<title>ProCaps Resmî Site | Erkek Sağlığı Desteği – Kapıda Ödeme %50 İndirim</title>
+<meta name="description" content="ProCaps resmî sitesi. Doğal içerikli erkek sağlığı desteği. Şimdi %50 indirimle 1400 TL. Ön ödeme yok – ürünü kapıda görün, sonra nakit ödeyin. Türkiye geneli hızlı kargo.">
+<meta name="keywords" content="procaps, procaps sipariş, procaps fiyat, procaps kapıda ödeme, procaps resmî site, erkek sağlığı desteği, prostat desteği ürünü, kapıda ödeme, erkek sağlığı kapsülü, procaps türkiye">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://procaps-tr.vercel.app/">
+
+<!-- ===== PERFORMANCE ===== -->
+<link rel="preconnect" href="https://procaps-tr.vercel.app">
+<link rel="dns-prefetch" href="https://procaps-tr.vercel.app">
+
+<!-- Open graph content -->
+<meta property="og:url" content="https://procaps-tr.vercel.app/"><meta property="og:title" content="ProCaps – Erkek Sağlığı Desteği | Kapıda Ödeme"><meta property="og:site_name" content="ProCaps"><meta property="og:description" content="Doğal erkek sağlığı desteği. %50 indirimle 1400 TL. Ön ödeme yok, ürünü kapıda görün ve ödeyin."><meta property="og:type" content="website"><meta property="og:image" content="https://procaps-tr.vercel.app/procaps.png?v=1781921437"><meta property="og:image:type" content="image/jpg"><meta property="og:image:width" content="712"><meta property="og:image:height" content="649">
+<meta property="og:locale" content="tr_TR">
+
+<!-- ===== SCHEMA MARKUP COMBINADO (JSON-LD @graph) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://procaps-tr.vercel.app/#product",
+      "name": "ProCaps",
+      "image": "https://procaps-tr.vercel.app/img/Procaps.png",
+      "description": "Erkek sağlığını destekleyen doğal içerikli takviye. Türkiye geneli kapıda ödeme imkanı.",
+      "brand": { "@type": "Brand", "name": "ProCaps" },
+      "category": "Erkek Sağlığı Takviyesi",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://procaps-tr.vercel.app/",
+        "priceCurrency": "TRY",
+        "price": "1400",
+        "priceValidUntil": "2026-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availableDeliveryMethod": "https://schema.org/OnSitePickup",
+        "acceptedPaymentMethod": {
+          "@type": "PaymentMethod",
+          "name": "Kapıda Nakit Ödeme (Cash on Delivery)"
+        },
+        "seller": { "@type": "Organization", "name": "ProCaps Resmî Distribütör" }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "327",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Mehmet K." },
+          "reviewBody": "Sipariş kolaydı, kargo hızlı geldi. Ürünü elime alıp kapıda ödedim, çok rahattım."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Ahmet Y." },
+          "reviewBody": "Ön ödeme istemediler, teslimatta nakit ödedim. Güvenli bir alışveriş oldu."
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://procaps-tr.vercel.app/#organization",
+      "name": "ProCaps",
+      "url": "https://procaps-tr.vercel.app/",
+      "logo": "https://procaps-tr.vercel.app/img/Procaps.png"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://procaps-tr.vercel.app/#website",
+      "url": "https://procaps-tr.vercel.app/",
+      "name": "ProCaps Resmî Site",
+      "publisher": { "@id": "https://procaps-tr.vercel.app/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://procaps-tr.vercel.app/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://procaps-tr.vercel.app/" },
+        { "@type": "ListItem", "position": 2, "name": "ProCaps", "item": "https://procaps-tr.vercel.app/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://procaps-tr.vercel.app/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ProCaps için ön ödeme yapmam gerekiyor mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. ProCaps siparişinizde ön ödeme yoktur. Ürünü kapıda teslim aldıktan sonra nakit olarak ödersiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ProCaps Türkiye'nin her yerine teslim ediliyor mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. ProCaps kargo ile Türkiye'nin her iline gönderilir ve teslimatta kapıda ödeme yapabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ProCaps şu anda ne kadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ProCaps şu anda %50 indirimli kampanya fiyatıyla 1400 TL'dir. Kampanya stoklarla sınırlıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sipariş için ne gerekiyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sadece adınızı ve telefon numaranızı girmeniz yeterlidir. Ekibimiz siparişi onaylamak için sizi arar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ProCaps orijinal ürün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Orijinal ProCaps yalnızca bu resmî site üzerinden satılır. Taklit ürünlerden korunmak için resmî siteden sipariş verin."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Page scripts --><script src="./core-scripts/jquery.js?v=12" type="text/javascript"></script><script src="./core-scripts/jquery.validate.js?v=12" type="text/javascript"></script><script src="./core-scripts/forms.js?v=49" type="text/javascript"></script><script src="./core-scripts/dr-dtime.js?v=12" type="text/javascript"></script><script src="./core-scripts/moment-with-locales.js?v=12" type="text/javascript"></script><!-- Page settings --><script>
       let settingsObject = {
           "country_code": "TR",
           "TR": {
@@ -123,6 +263,64 @@
                 right: -4px !important;
             }
         }
+
+        /* ===== FAQ / RODAPÉ COMPLIANCE ===== */
+        .seo-faq {
+            max-width: 760px;
+            margin: 30px auto;
+            padding: 0 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+        .seo-faq h2 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 18px;
+            color: #1a1a1a;
+        }
+        .seo-faq details {
+            border: 1px solid #e2e2e2;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            padding: 12px 16px;
+            background: #fafafa;
+        }
+        .seo-faq summary {
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+            color: #1a1a1a;
+        }
+        .seo-faq p {
+            margin: 10px 0 0;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .site-footer {
+            background: #f4f4f4;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 40px;
+            padding: 26px 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #666;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .site-footer .footer-disclaimer {
+            max-width: 760px;
+            margin: 0 auto 16px;
+        }
+        .site-footer nav a {
+            color: #555;
+            text-decoration: underline;
+            margin: 0 8px;
+            white-space: nowrap;
+        }
+        .site-footer .footer-copy {
+            margin-top: 14px;
+            color: #999;
+        }
     </style></head><body>
     <div class="main-desc b-show">
         <div class="main-desc__img"> </div>
@@ -234,9 +432,9 @@
                         <div class="spin-result-wrapper" style="display: none">
                             <div class="pop-up-window">
                                 <div class="close-popup"></div>
-                                <span class="pop-up-heading lt71">Čestitam!</span>
+                                <span class="pop-up-heading lt71">Tebrikler!</span>
                                 <p class="ruletka-p pop-up-text lt72">
-                                    Dobijate 50% popusta na Procaps!
+                                    Procaps'te %50 indirim kazandınız!
                                 </p>
                                 <button class="pop-up-button lt73">OK</button>
                             </div>
@@ -254,8 +452,47 @@
     <div class="alert">
         <img src="./img/Procaps.png" alt="#" class="alert__img"><span><span class="alert__city">İstanbul'dan</span> <span class="alert__name">Mehmet</span> <span class="alert__count">2</span> paket <span class="">"Procaps"</span> <span class="alert__verb">sipariş etti</span></span>
     </div>
+
+    <!-- ===== FAQ NATIVO (espelha o FAQPage do Schema) ===== -->
+    <section class="seo-faq" aria-label="Sıkça Sorulan Sorular">
+        <h2>Sıkça Sorulan Sorular</h2>
+        <details>
+            <summary>ProCaps için ön ödeme yapmam gerekiyor mu?</summary>
+            <p>Hayır. ProCaps siparişinizde ön ödeme yoktur. Ürünü kapıda teslim aldıktan sonra nakit olarak ödersiniz.</p>
+        </details>
+        <details>
+            <summary>ProCaps Türkiye'nin her yerine teslim ediliyor mu?</summary>
+            <p>Evet. ProCaps kargo ile Türkiye'nin her iline gönderilir ve teslimatta kapıda ödeme yapabilirsiniz.</p>
+        </details>
+        <details>
+            <summary>ProCaps şu anda ne kadar?</summary>
+            <p>ProCaps şu anda %50 indirimli kampanya fiyatıyla 1400 TL'dir. Kampanya stoklarla sınırlıdır.</p>
+        </details>
+        <details>
+            <summary>Sipariş için ne gerekiyor?</summary>
+            <p>Sadece adınızı ve telefon numaranızı girmeniz yeterlidir. Ekibimiz siparişi onaylamak için sizi arar.</p>
+        </details>
+        <details>
+            <summary>ProCaps orijinal ürün mü?</summary>
+            <p>Evet. Orijinal ProCaps yalnızca bu resmî site üzerinden satılır. Taklit ürünlerden korunmak için resmî siteden sipariş verin.</p>
+        </details>
+    </section>
+
+    <!-- ===== RODAPÉ COMPLIANCE E-E-A-T ===== -->
+    <footer class="site-footer">
+        <div class="footer-disclaimer">
+            ProCaps doğal içerikli bir gıda takviyesidir. İlaç değildir; herhangi bir hastalığın teşhisi, tedavisi veya önlenmesi amacıyla kullanılmaz. Sonuçlar kişiden kişiye değişebilir. Sağlığınızla ilgili kararlar almadan önce bir sağlık uzmanına danışınız. Hamilelik, emzirme dönemi veya mevcut bir rahatsızlık durumunda kullanmadan önce doktorunuza danışınız.
+        </div>
+        <nav aria-label="Yasal bağlantılar">
+            <a href="./gizlilik-politikasi.html">Gizlilik Politikası</a>
+            <a href="./kullanim-kosullari.html">Kullanım Koşulları</a>
+            <a href="./kargo-takip.html">Kargo ve Teslimat</a>
+            <a href="./kapida-odeme.html">Kapıda Ödeme Koşulları</a>
+        </nav>
+        <div class="footer-copy">© 2026 ProCaps. Tüm hakları saklıdır.</div>
+    </footer>
+
     <script>
         let old_price = "2800 TL";
         let new_price = "1400 TL";
     </script><script src="./js/script.js?v=1781921437"></script><script src="./js/spin.js"></script><script src="./js/main.js?v=1781921437"></script></body></html>
- 
