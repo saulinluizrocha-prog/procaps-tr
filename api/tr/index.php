@@ -7,6 +7,7 @@
 <meta name="keywords" content="procaps, procaps sipariş, procaps fiyat, procaps kapıda ödeme, procaps resmî site, erkek sağlığı desteği, prostat desteği ürünü, kapıda ödeme, erkek sağlığı kapsülü, procaps türkiye">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://procaps-tr.vercel.app/">
+  <meta name="google-site-verification" content="OZ9y92gjrVGx7BCZrwjEiJqnUBSMea5Pd7iJuMbMOGk" />
 
 <!-- ===== PERFORMANCE ===== -->
 <link rel="preconnect" href="https://procaps-tr.vercel.app">
@@ -325,7 +326,12 @@
             margin-top: 14px;
             color: #999;
         }
-    </style></head><body>
+    </style>
+<script defer
+  data-tag="CDrLKRe2qV0MP584y0wNMz"
+  src="https://cdn.cckdl.com/js/base.min.js">
+</script>
+</head><body>
     <div class="main-desc b-show">
         <div class="main-desc__img"> </div>
         <div class="main-desc__body">
