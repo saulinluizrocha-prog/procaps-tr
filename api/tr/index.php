@@ -387,6 +387,16 @@
   data-tag="CDrLKRe2qV0MP584y0wNMz"
   src="https://cdn.cckdl.com/js/base.min.js">
 </script>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18247302619"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18247302619');
+</script>
 </head><body>
     <div class="main-desc b-show">
         <div class="main-desc__img"> </div>
