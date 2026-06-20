@@ -443,7 +443,44 @@
                     </div>
                 </div>
 
+            <!-- ===== FAQ NATIVO (espelha o FAQPage do Schema) ===== -->
+            <section class="seo-faq" aria-label="Sıkça Sorulan Sorular">
+                <h2>Sıkça Sorulan Sorular</h2>
+                <details>
+                    <summary>ProCaps için ön ödeme yapmam gerekiyor mu?</summary>
+                    <p>Hayır. ProCaps siparişinizde ön ödeme yoktur. Ürünü kapıda teslim aldıktan sonra nakit olarak ödersiniz.</p>
+                </details>
+                <details>
+                    <summary>ProCaps Türkiye'nin her yerine teslim ediliyor mu?</summary>
+                    <p>Evet. ProCaps kargo ile Türkiye'nin her iline gönderilir ve teslimatta kapıda ödeme yapabilirsiniz.</p>
+                </details>
+                <details>
+                    <summary>ProCaps şu anda ne kadar?</summary>
+                    <p>ProCaps şu anda %50 indirimli kampanya fiyatıyla 1400 TL'dir. Kampanya stoklarla sınırlıdır.</p>
+                </details>
+                <details>
+                    <summary>Sipariş için ne gerekiyor?</summary>
+                    <p>Sadece adınızı ve telefon numaranızı girmeniz yeterlidir. Ekibimiz siparişi onaylamak için sizi arar.</p>
+                </details>
+                <details>
+                    <summary>ProCaps orijinal ürün mü?</summary>
+                    <p>Evet. Orijinal ProCaps yalnızca bu resmî site üzerinden satılır. Taklit ürünlerden korunmak için resmî siteden sipariş verin.</p>
+                </details>
+            </section>
 
+            <!-- ===== RODAPÉ COMPLIANCE E-E-A-T ===== -->
+            <footer class="site-footer">
+                <div class="footer-disclaimer">
+                    ProCaps doğal içerikli bir gıda takviyesidir. İlaç değildir; herhangi bir hastalığın teşhisi, tedavisi veya önlenmesi amacıyla kullanılmaz. Sonuçlar kişiden kişiye değişebilir. Sağlığınızla ilgili kararlar almadan önce bir sağlık uzmanına danışınız. Hamilelik, emzirme dönemi veya mevcut bir rahatsızlık durumunda kullanmadan önce doktorunuza danışınız.
+                </div>
+                <nav aria-label="Yasal bağlantılar">
+                    <a href="/gizlilik-politikasi.html">Gizlilik Politikası</a>
+                    <a href="/kullanim-kosullari.html">Kullanım Koşulları</a>
+                    <a href="/kargo-takip.html">Kargo ve Teslimat</a>
+                    <a href="/kapida-odeme.html">Kapıda Ödeme Koşulları</a>
+                </nav>
+                <div class="footer-copy">© 2026 ProCaps. Tüm hakları saklıdır.</div>
+            </footer>
                 <div id="down-box"></div>
             </div>
         </div>
@@ -452,45 +489,6 @@
     <div class="alert">
         <img src="./img/Procaps.png" alt="#" class="alert__img"><span><span class="alert__city">İstanbul'dan</span> <span class="alert__name">Mehmet</span> <span class="alert__count">2</span> paket <span class="">"Procaps"</span> <span class="alert__verb">sipariş etti</span></span>
     </div>
-
-    <!-- ===== FAQ NATIVO (espelha o FAQPage do Schema) ===== -->
-    <section class="seo-faq" aria-label="Sıkça Sorulan Sorular">
-        <h2>Sıkça Sorulan Sorular</h2>
-        <details>
-            <summary>ProCaps için ön ödeme yapmam gerekiyor mu?</summary>
-            <p>Hayır. ProCaps siparişinizde ön ödeme yoktur. Ürünü kapıda teslim aldıktan sonra nakit olarak ödersiniz.</p>
-        </details>
-        <details>
-            <summary>ProCaps Türkiye'nin her yerine teslim ediliyor mu?</summary>
-            <p>Evet. ProCaps kargo ile Türkiye'nin her iline gönderilir ve teslimatta kapıda ödeme yapabilirsiniz.</p>
-        </details>
-        <details>
-            <summary>ProCaps şu anda ne kadar?</summary>
-            <p>ProCaps şu anda %50 indirimli kampanya fiyatıyla 1400 TL'dir. Kampanya stoklarla sınırlıdır.</p>
-        </details>
-        <details>
-            <summary>Sipariş için ne gerekiyor?</summary>
-            <p>Sadece adınızı ve telefon numaranızı girmeniz yeterlidir. Ekibimiz siparişi onaylamak için sizi arar.</p>
-        </details>
-        <details>
-            <summary>ProCaps orijinal ürün mü?</summary>
-            <p>Evet. Orijinal ProCaps yalnızca bu resmî site üzerinden satılır. Taklit ürünlerden korunmak için resmî siteden sipariş verin.</p>
-        </details>
-    </section>
-
-    <!-- ===== RODAPÉ COMPLIANCE E-E-A-T ===== -->
-    <footer class="site-footer">
-        <div class="footer-disclaimer">
-            ProCaps doğal içerikli bir gıda takviyesidir. İlaç değildir; herhangi bir hastalığın teşhisi, tedavisi veya önlenmesi amacıyla kullanılmaz. Sonuçlar kişiden kişiye değişebilir. Sağlığınızla ilgili kararlar almadan önce bir sağlık uzmanına danışınız. Hamilelik, emzirme dönemi veya mevcut bir rahatsızlık durumunda kullanmadan önce doktorunuza danışınız.
-        </div>
-        <nav aria-label="Yasal bağlantılar">
-            <a href="./gizlilik-politikasi.html">Gizlilik Politikası</a>
-            <a href="./kullanim-kosullari.html">Kullanım Koşulları</a>
-            <a href="./kargo-takip.html">Kargo ve Teslimat</a>
-            <a href="./kapida-odeme.html">Kapıda Ödeme Koşulları</a>
-        </nav>
-        <div class="footer-copy">© 2026 ProCaps. Tüm hakları saklıdır.</div>
-    </footer>
 
     <script>
         let old_price = "2800 TL";
