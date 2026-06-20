@@ -1,12 +1,16 @@
 {
   "functions": {
-    "api/*.php": {
+    "api/**/*.php": {
       "runtime": "vercel-php@0.9.0"
     }
   },
   "routes": [
-    { "src": "/post.php", "dest": "/api/post.php" },
-    { "src": "/index.php", "dest": "/api/index.php" },
-    { "src": "/", "dest": "/api/index.php" }
+    { "src": "/tr-send.php", "dest": "/api/tr-send.php" },
+    { "src": "/tr", "dest": "/api/tr/index.php" },
+    { "src": "/tr/", "dest": "/api/tr/index.php" },
+    { "src": "/tr/index.php", "dest": "/api/tr/index.php" },
+    { "src": "/post.php", "dest": "/api/tr-send.php" },
+    { "src": "/index.php", "dest": "/api/tr/index.php" },
+    { "src": "/", "dest": "/api/tr/index.php" }
   ]
 }
