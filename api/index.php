@@ -321,6 +321,62 @@
             margin-top: 14px;
             color: #999;
         }
+
+        /* Overrides to place footer outside the chat and sidebar boxes */
+        @media (min-width: 601px) {
+            .body {
+                position: relative !important;
+                padding-bottom: 110px !important;
+                box-sizing: border-box !important;
+            }
+            .about, .content {
+                height: calc(100% - 110px) !important;
+            }
+            .site-footer {
+                position: absolute !important;
+                bottom: 10px !important;
+                left: 0 !important;
+                width: 100% !important;
+                background: transparent !important;
+                border-top: none !important;
+                padding: 10px 0 !important;
+                margin-top: 0 !important;
+                z-index: 99 !important;
+            }
+        }
+        @media (max-width: 600px) {
+            .body {
+                position: relative !important;
+                padding-bottom: 130px !important;
+                box-sizing: border-box !important;
+                height: 100vh !important;
+                overflow: hidden !important;
+            }
+            .content {
+                height: calc(100% - 130px) !important;
+            }
+            .site-footer {
+                position: absolute !important;
+                bottom: 5px !important;
+                left: 0 !important;
+                width: 100% !important;
+                background: transparent !important;
+                border-top: none !important;
+                padding: 5px 10px !important;
+                font-size: 11px !important;
+                margin-top: 0 !important;
+                z-index: 99 !important;
+            }
+            .site-footer .footer-disclaimer {
+                font-size: 10px !important;
+                line-height: 1.3 !important;
+                margin-bottom: 8px !important;
+            }
+            .site-footer nav a {
+                margin: 0 4px !important;
+                font-size: 10px !important;
+            }
+        }
     </style></head><body>
     <div class="main-desc b-show">
         <div class="main-desc__img"> </div>
@@ -443,22 +499,23 @@
                     </div>
                 </div>
 
-            <!-- ===== RODAPÉ COMPLIANCE E-E-A-T ===== -->
-            <footer class="site-footer">
-                <div class="footer-disclaimer">
-                    ProCaps doğal içerikli bir gıda takviyesidir. İlaç değildir; herhangi bir hastalığın teşhisi, tedavisi veya önlenmesi amacıyla kullanılmaz. Sonuçlar kişiden kişiye değişebilir. Sağlığınızla ilgili kararlar almadan önce bir sağlık uzmanına danışınız. Hamilelik, emzirme dönemi veya mevcut bir rahatsızlık durumunda kullanmadan önce doktorunuza danışınız.
-                </div>
-                <nav aria-label="Yasal bağlantılar">
-                    <a href="/gizlilik-politikasi.html">Gizlilik Politikası</a>
-                    <a href="/kullanim-kosullari.html">Kullanım Koşulları</a>
-                    <a href="/kargo-takip.html">Kargo ve Teslimat</a>
-                    <a href="/kapida-odeme.html">Kapıda Ödeme Koşulları</a>
-                </nav>
-                <div class="footer-copy">© 2026 ProCaps. Tüm hakları saklıdır.</div>
-            </footer>
                 <div id="down-box"></div>
             </div>
         </div>
+
+        <!-- ===== RODAPÉ COMPLIANCE E-E-A-T ===== -->
+        <footer class="site-footer">
+            <div class="footer-disclaimer">
+                ProCaps doğal içerikli bir gıda takviyesidir. İlaç değildir; herhangi bir hastalığın teşhisi, tedavisi veya önlenmesi amacıyla kullanılmaz. Sonuçlar kişiden kişiye değişebilir. Sağlığınızla ilgili kararlar almadan önce bir sağlık uzmanına danışınız. Hamilelik, emzirme dönemi veya mevcut bir rahatsızlık durumunda kullanmadan önce doktorunuza danışınız.
+            </div>
+            <nav aria-label="Yasal bağlantılar">
+                <a href="/gizlilik-politikasi.html">Gizlilik Politikası</a>
+                <a href="/kullanim-kosullari.html">Kullanım Koşulları</a>
+                <a href="/kargo-takip.html">Kargo ve Teslimat</a>
+                <a href="/kapida-odeme.html">Kapıda Ödeme Koşulları</a>
+            </nav>
+            <div class="footer-copy">© 2026 ProCaps. Tüm hakları saklıdır.</div>
+        </footer>
     </div>
 
     <div class="alert">
