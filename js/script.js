@@ -59,7 +59,7 @@ var mass_id = 0,
     length_mass = 0,
     lengt_num_mas = 0,
     text = "",
-    speedtext = 55,
+    speedtext = 15,
     process = !0;
 
 function app() {
