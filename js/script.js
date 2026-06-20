@@ -216,19 +216,19 @@ function displayQuestionAndChoice(questionNumber) {
     }
 }
 
-// // Функция для сохранения состояния пользователя
-// function saveUserState(state) {
-//     localStorage.setItem("userState", JSON.stringify(state));
-// }
+// Функция для сохранения состояния пользователя
+function saveUserState(state) {
+    localStorage.setItem("userState", JSON.stringify(state));
+}
 
-// // Функция для получения состояния пользователя
-// function getUserState() {
-//     const state = localStorage.getItem("userState");
-//     if (state) {
-//         return JSON.parse(state);
-//     }
-//     return null;
-// }
+// Функция для получения состояния пользователя
+function getUserState() {
+    const state = localStorage.getItem("userState");
+    if (state) {
+        return JSON.parse(state);
+    }
+    return null;
+}
 
 
 setTimeout(() => {
