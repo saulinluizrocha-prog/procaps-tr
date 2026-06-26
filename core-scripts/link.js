@@ -18,4 +18,4 @@ for (let i = 0; i < allAtags.length; i++) {
     if (!stop) {
         allAtags[i].onclick = scrollToForm
     }
-} 
+}

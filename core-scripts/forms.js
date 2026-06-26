@@ -223,4 +223,4 @@ $(document).ready(function () {
     });
 
     createValidate();
-}); 
+});

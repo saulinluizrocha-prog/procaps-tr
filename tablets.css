@@ -1,0 +1,208 @@
+@media (min-width:460px) and (max-width:991px){
+    .paginacion {
+        float: left;
+        margin: 20px 0px;
+        margin-top: -2px;
+        margin-left: 18%;
+    }
+    body{font-size:1.8em;}
+    footer li{width:40px;min-height:40px;border-radius:50px;margin-right:14px;}
+    footer li:first-child img{margin-top:3px;margin-left:7px;width: 64%;}
+    footer li:nth-child(2) img{margin-top:5px;margin-left:1px;width: 95%;}
+    footer li:nth-child(3) img{margin-top:5px;margin-left:1px;width: 95%;}
+    footer li:nth-child(4) img{margin-top:0px;margin-left:11px;width: 100%;}
+    footer li:nth-child(5) img{margin-top:0px;margin-left:18px;width: 100%;}
+    #lifoot{display:none; visibility: hidden;}
+    #socialmediafoot {margin-left: 27%; margin-bottom: -15px;}
+    .appdowload {font-size: 20px;text-align: center;margin-bottom: 9px;margin-top: 10px;color: #337AAD;font-weight: 400;}
+    /* .container-fluid{padding:0 15px;} */
+    /* #contenido{background-color:#E2E2E2;} */
+    .main{max-width:100%;margin:0 auto;}
+    .rowHead{margin:20px 0 10px;text-align:center;}
+    .dropdown-menu{border:none;border-radius:0;}
+    #navegacion{z-index:9999;}
+    .navbar-header{float:none;margin-left:-15px !important;}
+    .navbar-toggle{display:block;}
+    .navbar-collapse{border-top:1px solid transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);padding-right:0px;padding-left:0px;}
+    /* .navbar-collapse.collapse{display:none!important;} */
+    .navbar-nav{float:none!important;margin:0 auto;min-height:50px;}
+    .navbar-nav>li{text-transform:uppercase;float:none;min-height:50px;}
+    .navbar-nav>li>a{padding-top:10px;padding-bottom:10px;}
+    .navbar-nav>li>.dropdown-menu{min-width:100%;position:absolute !important;top:50px;}
+    .dropdown-menu>li>a{padding-left:90px;}
+    .navbar-text{float:none;margin:15px 0;}
+    .navbar-collapse.collapse.in{display:block!important;}
+    .collapsing{overflow:hidden!important;}
+    .navbar-default .navbar-nav>li:nth-child(n){background-position:34px 13px;}
+    .navbar-default .navbar-nav>li>a{margin-left:90px;}
+    .navbar-default .navbar-nav>li{padding-top:5px;}
+    .localiza-sm{width:95.4%;max-width:752px;height:176px;border:10px solid #fff;background:url("") no-repeat;position:relative;top:0px;margin:0 auto;}
+    /* .barra{margin:0 15px;} */
+    .barra .col-md-12 h1{margin-left:5%;margin-top:1%;font-size:2.7em;}
+    .barraCirculo div {
+        width: 150px;
+        min-height: 150px;
+        border-radius: 165px;
+        background-color: #fff;
+        margin: 20px 0 20px 35px;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+    /*.barraCirculo div{width:150px;min-height:150px;border-radius:165px;background-color:#fff;margin:20px 0 20px 35px;cursor:pointer;}*/
+    .barraCirculo div img{margin-top:15px !important;margin-left:15px !important;max-width:100%;}
+    .barraCirculo div img:nth-child(2){margin-left:25px !important;}
+    .barraTitulo p, .barraTitulo2 p{min-width:100%;text-align:center;margin-top:20px;font-weight:700;font-size:18px;}
+    .opticasIcon img{top:10px;left:5px;}
+    .siminotasVideos{min-height:1150px !important;height:auto;padding-bottom:60px !important;}
+    .videos img{}
+    .thumbnail{margin-bottom:10px !important;}
+    .thumbnail .caption{margin:0 16px;}
+    .thumbnail p{font-size:0.8em;text-align:left;height:15px;overflow:hidden;margin:2px auto !important;}
+    .videos iframe{min-height:380px;float:right;margin-right:0;max-width:100% !important;}
+    footer{max-height:140px;}
+    .proGrid{border-right:1px solid #DBDBDB;}
+    .proGrid h1{margin-top:20px;padding-top:0px;min-height:80px;max-height:80px;}
+    .proGrid p{margin-bottom:0px;margin-top:0px;}
+    .divisionPro{border-right:none;}
+    .etiqueta-nuevo{right:0px;}
+    .etiqueta-nuevo .glyphicon-usd{top:-5px;left:10px;}
+    .etiqueta-nuevo .glyphicon-plus{top:-27px;left:35px;color:#fff;}
+    .etiqueta-nuevo .glyphicon-flag{top:-27px;left:35px;color:#fff;}
+    .well{margin:0 auto;max-height:none;}
+    .row .col-sm-4 .well{}
+    .rotate{top:-20px;left:20px;}
+    .detalle .col-sm-5{margin-left:5px;}
+    .panel-heading{margin-bottom:10px;text-align:center;}
+    .loading{padding-top:45%;}
+    .loading img{margin-bottom:20px;max-width:80%;}
+    .Oferta p{top:-22px;left:22px;}
+    .popDisplayTitle{font-family:'Oswald', sans-serif !important;font-size:2.8em !important;font-weight:700;text-transform:uppercase;background-color:#CD2441;color:#fff;border-radius:4px;margin:15px 0 0 15px;max-width:100%;}
+    .popDisplay{font-family:'Oswald', sans-serif;font-size:2.5em;text-align:center;color:#02405B;}
+    .popDisplayContent{margin-left:0px;font-family:'Oswald', sans-serif !important;font-size:2.5em !important;font-weight:700;}
+    .popDisplayContent span{font-size:0.9em;font-weight:700;background-color:#f5f5f5;color:#333;border:1px solid #ddd;}
+    .adsTitle{max-width:100%;}
+    .nuevo{background-color:#00527F;}
+    .comboImg{max-width:40% !important;padding:0;}
+    .comboImg img{padding:10px;border-radius:8px;}
+    .comboPro{margin:0 auto;}
+    .comboImg:first-child{margin-left:0px;}
+    .plus{float:left;font-size:1.5em;font-weight:700;margin:0;padding-top:8%;}
+    .comboPrecio{margin:10px;}
+    .banner{padding:0;margin-bottom:20px;margin-left:0;}
+    .banner img{border-radius:10px;margin:0px 2%;max-width:96%;border:none;}
+    .sugeridos img{margin:5px 0;border-radius:10px;}
+    .row-centered{text-align:center;}
+    .col-centered{display:inline-block;float:none;text-align:left;margin-right:0px;}
+    .table-responsive{top:12px;left:0px;width:100% !important;}
+    .cierraBusqueda{top:10px;left:102%;}
+    #map{height:500px;}
+    .localizaInput{margin-left:0 !important;}
+    .uni{font-size:0.9em !important;}
+    #searchId{width:300px;margin-left:12px;border-radius:10px;top:0px !important;}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{padding-left:65px;}
+    .ads .panel-body p{text-align:center !important;}
+    .adsTitle{margin:20px 0px !important;text-align:center;padding:10px 5px;}
+    .ads .panel-body{border-right:1px solid white;}
+    .notaTitulo{margin:0 !important;margin-bottom:10px !important;}
+    .notas .col-xs-12{padding:5px;}
+    .notas p{text-align:justify;}
+    .notas h1{margin-right:10px;}
+    .barraCirculo p{font-size:1.2em;}
+    .contenido{font-size:1.3em !important;}
+    .busca{height:53px;font-size:1.5em;width:109% !important;}
+    .form-group{margin-bottom:30px;height:50px;margin-top:3px;}
+    .filtros .col-md-12 input{font-size:1.2em;height:40px;}
+    .subMenu2{padding-left:95px !important;}
+    .medIcon{background-position:55px 3px;}
+    .higieneIcon{background-position:55px 3px;}
+    .curacionIcon{background-position:55px 3px;}
+    .vitaminasIcon{background-position:55px 3px;}
+    .modal-body{min-height:130px;}
+    .contactoMessage{min-height:260px !important;}
+    .barraCirculo div .consulMeds{margin-left:21px !important;margin-top:21px !important;}
+    .barraCirculo div .catdig{margin-left:2px !important;margin-top:-4px !important;}
+    .ofertaViewPanel .label-default {background-color: #F5F5F5;border: 1px solid #E3E3E3;}
+    .blockquote {font-size: 33px;}
+}
+
+@media (min-width:490px) and (max-width:767px){
+    .mainLeft{    max-width: 100%;
+}
+    /*.mainLeft .col-md-12{background-color:#004996;padding-left:0;padding-right:0;}*/
+    .mainLeft .col-md-12{background-color:transparent;padding-left:15px;padding-right:15px;}
+    .descargaApp{margin-top:0;}
+    .descargaApp img{width: 100%;border-radius:5px;border:0px dashed #fff;box-shadow:0 10px 10px -10px rgba(0, 0, 0, 0.5);}
+    .descargaApp p{text-align:center;margin:10px;}
+    .mainRight{background-position:0;max-width:100%;}
+    .siminotasVideos{height:auto;}
+    .videos{margin-top:50px;min-height:369px;}
+    .videos iframe{max-height:369px;}
+    .videos img{margin-top:0;}
+    .barraCirculo div {
+        width: 130px;
+        min-height: 130px;
+        /* margin: auto 20px 20px 20px; */
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    /*.barraCirculo div{width:130px;min-height:130px;margin:20px 0 20px 0px;}*/
+    .barraCirculo div img{margin-left: 10px !important;margin-top: 16px !important;}
+    .popDisplayTitle{max-width:none;margin-right:0px;margin-left:15px;}
+    .detalle .col-sm-5{margin-left:0px;}
+    .banner{padding:0;margin-left:0;}
+    .banner img{max-width:100%;margin:10px;margin-top:0;border-radius:0;border:10px solid #fff;}
+    .table-responsive{top:10px;left:-20%;width:165% !important;}
+    .cierraBusqueda{top:18px;left:-17%;}
+    .localizaInput{margin-left:7% !important;}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{padding-left:85px;}
+    .ofertaViewPanel .label-default {background-color: #F5F5F5;border: 1px solid #E3E3E3;}
+    footer li{width:30px;min-height:30px;border-radius:50px;margin-right:25px;}
+    footer li:first-child img{margin-top:3px;margin-left:7px;width: 64%;}
+    footer li:nth-child(2) img{margin-top:1px;margin-left:1px;width: 95%;}
+    footer li:nth-child(3) img{margin-top:0px;margin-left:0px;width: 100%;}
+    footer li:nth-child(4) img{margin-top:0px;margin-left:20px;width: 100%;}
+    footer li:nth-child(5) img {
+        margin-top: 0px;
+        margin-left: 37px;
+        width: 100%;
+    }
+    #lifoot{display:none; visibility: hidden;}
+    .barraCirculo div .consulMeds{margin-left:12px !important;margin-top:14px !important;}
+    #socialmediafoot {margin-left: 25%; margin-bottom: -21px;margin-top: -2px;}
+    .appdowload {font-size: 20px;text-align: center;margin-bottom: 9px;margin-top: 10px;color: #337AAD;font-weight: 400;}
+    .paginacion { float: left;margin: 20px 0px;margin-top: -2px;margin-left: 29%;}
+}
+@media (min-width:430px) and (max-width:489px){
+    .mainLeft{    max-width: 100%;
+}
+    .mainLeft .col-md-12{background-color:#004996;padding-left:0;padding-right:0;}
+    .descargaApp{margin-top:0;}
+    .descargaApp img{border-radius:5px;border:0px dashed #fff;box-shadow:0 10px 10px -10px rgba(0, 0, 0, 0.5);}
+    .descargaApp p{text-align:center;margin:10px;}
+    .mainRight{background-position:0;}
+    .siminotasVideos{height:auto;}
+    .videos{margin-top:50px;min-height:369px;}
+    .videos iframe{max-height:369px;}
+    .videos img{margin-top:0;}
+    .barraCirculo div{width:130px;min-height:130px;margin:20px 0 20px 0px;}
+    .barraCirculo div img{margin-top:10px;margin-left:10px;}
+    .popDisplayTitle{max-width:none;margin-right:0px;margin-left:15px;}
+    .detalle .col-sm-5{margin-left:0px;}
+    .banner{padding:0;margin-left:0;}
+    .banner img{max-width:100%;margin:10px;margin-top:0;border-radius:0;border:10px solid #fff;}
+    .table-responsive{top:10px;left:-20%;width:165% !important;}
+    .cierraBusqueda{top:18px;left:-17%;}
+    .localizaInput{margin-left:7% !important;}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{padding-left:85px;}
+    .ofertaViewPanel .label-default {background-color: #F5F5F5;border: 1px solid #E3E3E3;}
+    footer li{width:30px;min-height:30px;border-radius:50px;margin-right:25px;}
+    footer li:first-child img{margin-top:3px;margin-left:7px;width: 64%;}
+    footer li:nth-child(2) img{margin-top:1px;margin-left:1px;width: 95%;}
+    footer li:nth-child(3) img{margin-top:0px;margin-left:0px;width: 100%;}
+    footer li:nth-child(4) img{margin-top:0px;margin-left:20px;width: 100%;}
+    #lifoot{display:none; visibility: hidden;}
+    #socialmediafoot {margin-left: -3px!important; margin-bottom: -6px;margin-top: 8px;}
+    .appdowload {font-size: 20px;text-align: center;margin-bottom: 9px;margin-top: 10px;color: #337AAD;font-weight: 400;}
+    .paginacion { float: left;margin: 20px 0px;margin-top: -2px;margin-left: 29%;}
+}
