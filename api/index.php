@@ -175,12 +175,21 @@
   .site-footer nav a { color: #555; text-decoration: underline; margin: 0 8px; white-space: nowrap; }
   .site-footer .footer-copy { margin-top: 14px; color: #999; }
 </style>
-</head>
-  <script defer
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xam3om82ok");
+</script>
+
+    <script defer
   data-tag="CDrLKRe2qV0MP584y0wNMz" 
   src="https://cdn.cckdl.com/js/base.min.js">
 </script>
   
+</head>
+
   <body class="iti-mobile">
     <style>
         .form__horizontal input, .form__horizontal select { width: 200px !important; }
