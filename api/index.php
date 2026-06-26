@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr-TR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="google-site-verification" content="OZ9y92gjrVGx7BCZrwjEiJqnUBSMea5Pd7iJuMbMOGk" />
 
 <!-- ===== SEO BASE ===== -->
 <title>Pro Caps Resmî Site | Erkek Sağlığı ve Konfor Desteği – Kapıda Ödeme</title>
